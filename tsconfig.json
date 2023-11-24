@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/indextsx", "src/pages/index-tsx", "src/components/common/DashPlayer.tsx", "src/components/common/VideoPlayer.jsx", "src/components/containers/uploadVideo/Visibility.jsx", "src/components/containers/uploadVideo/VideoPlayerStep.jsx", "src/components/containers/uploadVideo/VideoElementStep.jsx", "src/components/containers/uploadVideo/UploadVideo.jsx", "src/components/containers/uploadVideo/UploadStep.jsx", "src/components/containers/uploadVideo/DetailsStep.jsx", "src/components/modal/CreateProjectModal.jsx"],
+  "exclude": ["node_modules"]
+}
